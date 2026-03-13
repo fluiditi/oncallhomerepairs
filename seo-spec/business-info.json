@@ -1,0 +1,107 @@
+{
+  "business_name": "OnCallHomeRepairs",
+  "legal_name": "OnCall Home Repairs",
+  "industry": "Plumbing",
+  "description": "Emergency plumber matching network connecting customers with vetted, local plumbers 24/7",
+  "business_model": "Lead-matching network — connects emergency plumber leads to qualified local plumbers",
+  "founded_year": null,
+  "website_url": null,
+  "country": "UK",
+
+  "location": {
+    "address": "27 Wendover Drive",
+    "city": "Hinckley",
+    "county": "Leicestershire",
+    "postcode": "LE10 1UQ",
+    "country": "United Kingdom"
+  },
+
+  "contact": {
+    "phone": "0333 240 8428",
+    "phone_tel": "tel:03332408428",
+    "email": "info@oncallhomerepairs.co.uk"
+  },
+
+  "gbp": {
+    "primary_category": "Plumber",
+    "secondary_categories": [
+      "Emergency Plumber",
+      "Plumbing Contractor",
+      "Drain Cleaning Service",
+      "Boiler Repair Service"
+    ]
+  },
+
+  "services": [
+    "Emergency Plumber",
+    "Burst Pipe Repair",
+    "Frozen Pipe Repair",
+    "Flood Response",
+    "Leak Detection and Repair",
+    "Boiler Repair",
+    "Boiler Installation",
+    "Boiler Servicing",
+    "Central Heating Repair",
+    "Radiator Repair and Installation",
+    "Power Flushing",
+    "Blocked Drains",
+    "Drain Unblocking",
+    "CCTV Drain Survey",
+    "Toilet Repair",
+    "Toilet Unblocking",
+    "Tap Repair and Replacement",
+    "Shower Installation and Repair",
+    "Bathroom Plumbing",
+    "Kitchen Plumbing",
+    "Water Heater Repair",
+    "Gas Safety Checks",
+    "Stopcock Repair",
+    "Overflow Repair",
+    "Pipe Replacement"
+  ],
+
+  "service_areas": [
+    "Hinckley",
+    "Burbage",
+    "Earl Shilton",
+    "Barwell",
+    "Stoney Stanton",
+    "Sapcote",
+    "Elmesthorpe",
+    "Stoke Golding",
+    "Dadlington",
+    "Market Bosworth",
+    "Desford",
+    "Ratby",
+    "Groby",
+    "Markfield"
+  ],
+
+  "differentiators": {
+    "twenty_four_seven": true,
+    "twenty_four_seven_detail": "Day or night, weekends or bank holidays — ready to respond when you need us most",
+    "transparent_pricing": true,
+    "transparent_pricing_detail": "Clear, upfront quote before any work begins. No hidden fees or surprise charges.",
+    "workmanship_guarantee": true,
+    "workmanship_guarantee_detail": "If something isn't right, we come back and put it right at no extra cost.",
+    "communication": true,
+    "communication_detail": "Constant communication with customers until the job is done.",
+    "vetted_network": true,
+    "vetted_network_detail": "All plumbers in our network are qualified, Gas Safe registered, and fully insured.",
+    "free_estimates": null,
+    "response_time": null,
+    "five_star_reviews": null,
+    "years_in_business": null,
+    "locally_owned": null,
+    "key_differentiator": "Network of vetted emergency plumbers available 24/7 with transparent pricing and guaranteed workmanship"
+  },
+
+  "brand": {
+    "primary_color": "#154EFE",
+    "secondary_colors": "designer's choice",
+    "logo": null,
+    "existing_assets": null
+  },
+
+  "notes": "Starting with Hinckley. Will expand to other major UK cities later. UK business — use UK English, UK address formats, UK phone format."
+}

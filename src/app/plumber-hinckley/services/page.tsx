@@ -1,0 +1,14 @@
+import { Metadata } from "next";
+import { ServicesHubGeo } from "@/components/services-hub-geo";
+import { seoConfig } from "@/config/seo";
+
+export const metadata: Metadata = {
+  title: "Plumbing Services Hinckley | OnCall Home Repairs",
+  description:
+    "Full range of plumbing services in Hinckley, Leicestershire. Emergency plumbing, boiler repair, drain services, and general plumbing. Call 0333 240 8428.",
+  alternates: { canonical: "https://oncallhomerepairs.co.uk/plumber-hinckley/services" },
+};
+
+export default function ServicesHub() {
+  return <ServicesHubGeo config={seoConfig} />;
+}

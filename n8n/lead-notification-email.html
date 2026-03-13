@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;padding:0;background-color:#f3f4f6;font-family:Arial,Helvetica,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f3f4f6;padding:24px 0;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+
+          <!-- Header -->
+          <tr>
+            <td style="background-color:#0f172a;padding:24px 32px;">
+              <h1 style="margin:0;color:#ffffff;font-size:20px;font-weight:700;">New Lead — {{ $json.city }}</h1>
+              <p style="margin:6px 0 0;color:#94a3b8;font-size:13px;">{{ $json.timestamp }}</p>
+            </td>
+          </tr>
+
+          <!-- Contact details -->
+          <tr>
+            <td style="padding:28px 32px 0;">
+              <h2 style="margin:0 0 16px;font-size:14px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:1px;">Contact Details</h2>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;width:160px;color:#64748b;font-size:14px;font-weight:600;">Name</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">{{ $json.name }}</td>
+                </tr>
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#64748b;font-size:14px;font-weight:600;">Phone</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">
+                    <a href="tel:{{ $json.phone }}" style="color:#1d4ed8;text-decoration:none;font-weight:600;">{{ $json.phone }}</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#64748b;font-size:14px;font-weight:600;">Email</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">
+                    <a href="mailto:{{ $json.email }}" style="color:#1d4ed8;text-decoration:none;">{{ $json.email }}</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#64748b;font-size:14px;font-weight:600;">Prefers</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">{{ $json["preferred-contact-method"] }}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Job details -->
+          <tr>
+            <td style="padding:28px 32px 0;">
+              <h2 style="margin:0 0 16px;font-size:14px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:1px;">Job Details</h2>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;width:160px;color:#64748b;font-size:14px;font-weight:600;">Service</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">{{ $json["service-required"] }}</td>
+                </tr>
+                <tr>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#64748b;font-size:14px;font-weight:600;">Location</td>
+                  <td style="padding:10px 0;border-bottom:1px solid #f1f5f9;color:#0f172a;font-size:14px;">{{ $json.city }}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Message -->
+          <tr>
+            <td style="padding:28px 32px;">
+              <h2 style="margin:0 0 12px;font-size:14px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:1px;">Message</h2>
+              <div style="background-color:#f8fafc;border-left:4px solid #1d4ed8;border-radius:6px;padding:16px;color:#0f172a;font-size:14px;line-height:1.6;">
+                {{ $json.message }}
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#f8fafc;padding:16px 32px;border-top:1px solid #e2e8f0;">
+              <p style="margin:0;color:#94a3b8;font-size:12px;text-align:center;">
+                OnCall Home Repairs — Lead from oncallhomerepairs.co.uk
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
