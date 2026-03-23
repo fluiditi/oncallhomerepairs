@@ -452,18 +452,20 @@ export function ContactContentGeo({ config }: ContactContentGeoProps) {
       </section>
 
       {/* MAP */}
-      <section className="bg-white">
+      <section className="bg-white px-4 pt-12 sm:px-6 sm:pt-16 lg:px-8">
         {config.gbp && "mapEmbed" in config.gbp && config.gbp.mapEmbed ? (
-          <iframe
-            src={config.gbp.mapEmbed as string}
-            width="100%"
-            height="400"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title={`OnCall Home Repairs — ${city} on Google Maps`}
-          />
+          <div className="mx-auto max-w-4xl overflow-hidden rounded-xl">
+            <iframe
+              src={config.gbp.mapEmbed as string}
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title={`OnCall Home Repairs — ${city} on Google Maps`}
+            />
+          </div>
         ) : (
           <div
             className="flex h-64 items-center justify-center bg-muted/30 sm:h-80"

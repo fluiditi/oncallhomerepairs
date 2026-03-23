@@ -918,8 +918,8 @@ export default function Home() {
       {/* ================================================================= */}
       {/* SECTION 7b: MAP                                                   */}
       {/* ================================================================= */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="bg-white px-4 pt-12 sm:px-6 sm:pt-16 lg:px-8">
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38811.16617766433!2d-1.3640895!3d52.5569895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x632aac43791fff2d%3A0xf52136809b215736!2sOn%20Call%20Home%20Repairs!5e0!3m2!1sen!2suk!4v1771588492399!5m2!1sen!2suk"
             width="100%"
@@ -929,7 +929,6 @@ export default function Home() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="OnCall Home Repairs — Hinckley on Google Maps"
-            className="rounded-xl"
           />
         </div>
       </section>

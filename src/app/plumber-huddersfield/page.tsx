@@ -924,8 +924,8 @@ export default function Home() {
       {/* ================================================================= */}
       {/* SECTION 7b: MAP                                                   */}
       {/* ================================================================= */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="bg-white px-4 pt-12 sm:px-6 sm:pt-16 lg:px-8">
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.1281470587955!2d-1.8541765221922761!3d53.591175072361196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21c1638929622e73%3A0x1154a56a61197c6c!2sOn%20Call%20Home%20Repairs!5e0!3m2!1sen!2suk!4v1771588518000!5m2!1sen!2suk"
             width="100%"
@@ -935,7 +935,6 @@ export default function Home() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="OnCall Home Repairs — Huddersfield on Google Maps"
-            className="rounded-xl"
           />
         </div>
       </section>
