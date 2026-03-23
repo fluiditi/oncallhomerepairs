@@ -189,80 +189,59 @@ const trustBadges = [
 const services = [
   {
     icon: Wrench,
-    title: "Emergency Plumbing",
+    title: "Plumber",
     description:
-      "When water is coming through your ceiling or your boiler has died in January, you need a plumber who answers the phone at 2am. Our emergency plumbers respond around the clock, including weekends and bank holidays.",
+      "OnCall Home Repairs connects you with vetted, qualified plumbers across Hinckley and Leicestershire. From burst pipes at 2am to planned bathroom installations, our network of Gas Safe registered, fully insured professionals covers every plumbing need — domestic and commercial. Available 24/7 with transparent pricing and guaranteed workmanship.",
     keyServices: [
-      {
-        name: "Emergency plumber callout",
-        href: "/plumber-hinckley/services/plumber/emergency-plumber",
-      },
-      {
-        name: "Burst pipe repair",
-        href: "/plumber-hinckley/services/plumber/burst-pipes",
-      },
-      {
-        name: "Leak detection",
-        href: "/plumber-hinckley/services/plumber/leak-detection-repair",
-      },
+      { name: "Plumbing leak detection", href: "/plumber-hinckley/services/plumber/plumbing-leak-detection" },
+      { name: "Plumbing pipe repair", href: "/plumber-hinckley/services/plumber/plumbing-pipe-repair" },
+      { name: "Shower installation", href: "/plumber-hinckley/services/plumber/shower-installation" },
+      { name: "Tap installation", href: "/plumber-hinckley/services/plumber/tap-installation" },
+      { name: "Tap repair", href: "/plumber-hinckley/services/plumber/tap-repair" },
+      { name: "Toilet installation", href: "/plumber-hinckley/services/plumber/toilet-installation" },
+      { name: "Toilet repair", href: "/plumber-hinckley/services/plumber/toilet-repair" },
+      { name: "Water heater installation", href: "/plumber-hinckley/services/plumber/water-heater-installation" },
+      { name: "Outdoor plumbing system repair", href: "/plumber-hinckley/services/plumber/outdoor-plumbing-system-repair" },
+      { name: "Plumbing leak repair", href: "/plumber-hinckley/services/plumber/plumbing-leak-repair" },
+      { name: "Shower repair", href: "/plumber-hinckley/services/plumber/shower-repair" },
+      { name: "Waste disposal installation", href: "/plumber-hinckley/services/plumber/waste-disposal-installation" },
+      { name: "Water heater repair", href: "/plumber-hinckley/services/plumber/water-heater-repair" },
+      { name: "Water tank installation", href: "/plumber-hinckley/services/plumber/water-tank-installation" },
+      { name: "Water tank repair", href: "/plumber-hinckley/services/plumber/water-tank-repair" },
+      { name: "Blocked toilets", href: "/plumber-hinckley/services/plumber/blocked-toilets" },
+      { name: "Burst pipes", href: "/plumber-hinckley/services/plumber/burst-pipes" },
+      { name: "Commercial gas engineers", href: "/plumber-hinckley/services/plumber/commercial-gas-engineers" },
+      { name: "Domestic and commercial", href: "/plumber-hinckley/services/plumber/domestic-and-commercial" },
+      { name: "Gas leaks", href: "/plumber-hinckley/services/plumber/gas-leaks" },
+      { name: "Heating and gas", href: "/plumber-hinckley/services/plumber/heating-and-gas" },
+      { name: "Heating engineer", href: "/plumber-hinckley/services/plumber/heating-engineer" },
+      { name: "Hot water systems", href: "/plumber-hinckley/services/plumber/hot-water-systems" },
+      { name: "Leaking taps", href: "/plumber-hinckley/services/plumber/leaking-taps" },
+      { name: "Call out", href: "/plumber-hinckley/services/plumber/call-out" },
+      { name: "Leak", href: "/plumber-hinckley/services/plumber/leak" },
+      { name: "Landlord certificate", href: "/plumber-hinckley/services/plumber/landlord-certificate" },
+      { name: "Gas safety certificate", href: "/plumber-hinckley/services/plumber/gas-safety-certificate" },
+      { name: "Boiler and heating", href: "/plumber-hinckley/services/plumber/boiler-and-heating" },
+      { name: "Commercial gas", href: "/plumber-hinckley/services/plumber/commercial-gas" },
+      { name: "Emergency plumbing", href: "/plumber-hinckley/services/plumber/emergency-plumbing" },
+      { name: "Kitchen service", href: "/plumber-hinckley/services/plumber/kitchen-service" },
+      { name: "Plumbing and heating", href: "/plumber-hinckley/services/plumber/plumbing-and-heating" },
+      { name: "Safety certificates", href: "/plumber-hinckley/services/plumber/safety-certificates" },
+      { name: "Water system repairs", href: "/plumber-hinckley/services/plumber/water-system-repairs" },
     ],
     href: "/plumber-hinckley/services/plumber",
-    linkText: "Learn more about emergency plumbing",
+    linkText: "View all plumber services",
   },
   {
     icon: Flame,
-    title: "Boiler & Heating",
+    title: "Gasfitter",
     description:
-      "A cold house is miserable. Whether your boiler has broken down, your radiators are cold at the bottom, or you need a full boiler replacement, our Gas Safe registered engineers handle it all.",
+      "Gas work must be carried out by a Gas Safe registered engineer — it is a legal requirement in the UK. OnCall Home Repairs connects you with qualified gas fitters in Hinckley who handle boiler breakdowns, gas appliance installations, and emergency gas work. Available 24/7 with transparent pricing.",
     keyServices: [
-      { name: "Boiler repair", href: "/plumber-hinckley/services/plumber/boiler-repair" },
-      {
-        name: "Boiler installation",
-        href: "/plumber-hinckley/services/plumber/boiler-installation",
-      },
-      {
-        name: "Central heating repair",
-        href: "/plumber-hinckley/services/plumber/central-heating-repair",
-      },
+      { name: "Boiler breakdown", href: "/plumber-hinckley/services/gasfitter/boiler-breakdown" },
     ],
-    href: "/plumber-hinckley/services/plumber",
-    linkText: "Learn more about boiler services",
-  },
-  {
-    icon: Droplets,
-    title: "Drain Services",
-    description:
-      "Blocked drains are unpleasant, disruptive, and a health hazard if left untreated. Our plumbers use professional equipment to clear blockages quickly.",
-    keyServices: [
-      {
-        name: "Blocked drains",
-        href: "/plumber-hinckley/services/plumber/blocked-drains",
-      },
-      {
-        name: "CCTV drain survey",
-        href: "/plumber-hinckley/services/plumber/cctv-drain-survey",
-      },
-    ],
-    href: "/plumber-hinckley/services/plumber",
-    linkText: "Learn more about drain services",
-  },
-  {
-    icon: Bath,
-    title: "General Plumbing",
-    description:
-      "From a dripping tap that\u2019s been driving you mad for months to a complete bathroom refit, our network handles the everyday plumbing jobs that keep your home running properly.",
-    keyServices: [
-      {
-        name: "Bathroom plumbing",
-        href: "/plumber-hinckley/services/plumber/bathroom-plumbing",
-      },
-      {
-        name: "Tap repair",
-        href: "/plumber-hinckley/services/plumber/tap-repair-replacement",
-      },
-    ],
-    href: "/plumber-hinckley/services/plumber",
-    linkText: "Learn more about general plumbing",
+    href: "/plumber-hinckley/services/gasfitter",
+    linkText: "View all gasfitter services",
   },
 ];
 
