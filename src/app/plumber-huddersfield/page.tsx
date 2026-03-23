@@ -76,14 +76,14 @@ const faqs = [
       <>
         Plumbing costs in Huddersfield vary depending on the job. A straightforward{" "}
         <a
-          href="/plumber-huddersfield/services/general-plumbing/tap-repair-replacement"
+          href="/plumber-huddersfield/services/plumber/tap-repair-replacement"
           className="text-primary underline underline-offset-2 hover:text-primary/80"
         >
           tap repair
         </a>{" "}
         might cost between &pound;80 and &pound;150, while a full{" "}
         <a
-          href="/plumber-huddersfield/services/boiler-heating/boiler-installation"
+          href="/plumber-huddersfield/services/plumber/boiler-installation"
           className="text-primary underline underline-offset-2 hover:text-primary/80"
         >
           boiler installation
@@ -103,7 +103,7 @@ const faqs = [
       <>
         Yes. Our network of{" "}
         <a
-          href="/plumber-huddersfield/services/emergency-plumbing"
+          href="/plumber-huddersfield/services/plumber"
           className="text-primary underline underline-offset-2 hover:text-primary/80"
         >
           emergency plumbers
@@ -196,18 +196,18 @@ const services = [
     keyServices: [
       {
         name: "Emergency plumber callout",
-        href: "/plumber-huddersfield/services/emergency-plumbing/emergency-plumber",
+        href: "/plumber-huddersfield/services/plumber/emergency-plumber",
       },
       {
         name: "Burst pipe repair",
-        href: "/plumber-huddersfield/services/emergency-plumbing/burst-pipe-repair",
+        href: "/plumber-huddersfield/services/plumber/burst-pipes",
       },
       {
         name: "Leak detection",
-        href: "/plumber-huddersfield/services/emergency-plumbing/leak-detection-repair",
+        href: "/plumber-huddersfield/services/plumber/leak-detection-repair",
       },
     ],
-    href: "/plumber-huddersfield/services/emergency-plumbing",
+    href: "/plumber-huddersfield/services/plumber",
     linkText: "Learn more about emergency plumbing",
   },
   {
@@ -216,17 +216,17 @@ const services = [
     description:
       "A cold house is miserable. Whether your boiler has broken down, your radiators are cold at the bottom, or you need a full boiler replacement, our Gas Safe registered engineers handle it all.",
     keyServices: [
-      { name: "Boiler repair", href: "/plumber-huddersfield/services/boiler-heating/boiler-repair" },
+      { name: "Boiler repair", href: "/plumber-huddersfield/services/plumber/boiler-repair" },
       {
         name: "Boiler installation",
-        href: "/plumber-huddersfield/services/boiler-heating/boiler-installation",
+        href: "/plumber-huddersfield/services/plumber/boiler-installation",
       },
       {
         name: "Central heating repair",
-        href: "/plumber-huddersfield/services/boiler-heating/central-heating-repair",
+        href: "/plumber-huddersfield/services/plumber/central-heating-repair",
       },
     ],
-    href: "/plumber-huddersfield/services/boiler-heating",
+    href: "/plumber-huddersfield/services/plumber",
     linkText: "Learn more about boiler services",
   },
   {
@@ -237,14 +237,14 @@ const services = [
     keyServices: [
       {
         name: "Blocked drains",
-        href: "/plumber-huddersfield/services/drain-services/blocked-drains",
+        href: "/plumber-huddersfield/services/plumber/blocked-drains",
       },
       {
         name: "CCTV drain survey",
-        href: "/plumber-huddersfield/services/drain-services/cctv-drain-survey",
+        href: "/plumber-huddersfield/services/plumber/cctv-drain-survey",
       },
     ],
-    href: "/plumber-huddersfield/services/drain-services",
+    href: "/plumber-huddersfield/services/plumber",
     linkText: "Learn more about drain services",
   },
   {
@@ -255,14 +255,14 @@ const services = [
     keyServices: [
       {
         name: "Bathroom plumbing",
-        href: "/plumber-huddersfield/services/general-plumbing/bathroom-plumbing",
+        href: "/plumber-huddersfield/services/plumber/bathroom-plumbing",
       },
       {
         name: "Tap repair",
-        href: "/plumber-huddersfield/services/general-plumbing/tap-repair-replacement",
+        href: "/plumber-huddersfield/services/plumber/tap-repair-replacement",
       },
     ],
-    href: "/plumber-huddersfield/services/general-plumbing",
+    href: "/plumber-huddersfield/services/plumber",
     linkText: "Learn more about general plumbing",
   },
 ];
@@ -291,7 +291,7 @@ const differentiators = [
       "Every plumber in our network is qualified, Gas Safe registered, and fully insured. We verify credentials before anyone joins the network \u2014 because when someone enters your home, you need to know they\u2019re trustworthy and competent.",
     link: {
       text: "Gas Safe registered",
-      href: "/plumber-huddersfield/services/boiler-heating/gas-safety-checks",
+      href: "/plumber-huddersfield/services/plumber/gas-safety-checks",
     },
   },
   {
@@ -331,7 +331,7 @@ const steps = [
         or submit a request through our website. Tell us what&rsquo;s happened
         &mdash; whether it&rsquo;s an{" "}
         <a
-          href="/plumber-huddersfield/services/emergency-plumbing"
+          href="/plumber-huddersfield/services/plumber"
           className="text-primary underline underline-offset-2 hover:text-primary/80"
         >
           emergency

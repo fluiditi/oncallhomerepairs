@@ -6,10 +6,8 @@ import { seoConfig } from "@/config/seo";
 import { geoRegistry, resolveGeo } from "@/config/geo-registry";
 
 const categoryIcons: Record<string, React.ReactNode> = {
-  "emergency-plumbing": <Wrench className="size-3.5" />,
-  "boiler-heating": <Flame className="size-3.5" />,
-  "drain-services": <Droplets className="size-3.5" />,
-  "general-plumbing": <Bath className="size-3.5" />,
+  "plumber": <Wrench className="size-3.5" />,
+  "gasfitter": <Flame className="size-3.5" />,
 };
 
 export function SiteFooter() {
@@ -122,7 +120,7 @@ export function SiteFooter() {
                 </li>
                 <li>
                   <a
-                    href={`${geoPrefix}/services/emergency-plumbing`}
+                    href={`${geoPrefix}/services/plumber/emergency-plumbing`}
                     className="text-sm text-white/70 transition-colors hover:text-primary"
                   >
                     Emergency Plumbing

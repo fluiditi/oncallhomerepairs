@@ -25,10 +25,8 @@ import { seoConfig } from "@/config/seo";
 import { geoRegistry, resolveGeo } from "@/config/geo-registry";
 
 const categoryIcons: Record<string, React.ReactNode> = {
-  "emergency-plumbing": <Wrench className="size-4 text-primary" />,
-  "boiler-heating": <Flame className="size-4 text-primary" />,
-  "drain-services": <Droplets className="size-4 text-primary" />,
-  "general-plumbing": <Bath className="size-4 text-primary" />,
+  "plumber": <Wrench className="size-4 text-primary" />,
+  "gasfitter": <Flame className="size-4 text-primary" />,
 };
 
 export function SiteHeader() {

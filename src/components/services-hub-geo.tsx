@@ -57,10 +57,8 @@ const fadeIn = {
 // ---------------------------------------------------------------------------
 
 const categoryIcons: Record<string, typeof Wrench> = {
-  "emergency-plumbing": Wrench,
-  "boiler-heating": Flame,
-  "drain-services": Droplets,
-  "general-plumbing": Bath,
+  "plumber": Wrench,
+  "gasfitter": Flame,
 };
 
 // ---------------------------------------------------------------------------
@@ -346,21 +344,21 @@ export function ServicesHubGeo({ config }: ServicesHubGeoProps) {
                 towns and villages across {county}. Whether you
                 need an{" "}
                 <a
-                  href={`${prefix}/services/emergency-plumbing`}
+                  href={`${prefix}/services/plumber/emergency-plumbing`}
                   className="text-primary underline underline-offset-2 hover:text-primary/80"
                 >
                   emergency plumber in {city}
                 </a>
                 , a{" "}
                 <a
-                  href={`${prefix}/services/boiler-heating/boiler-repair`}
+                  href={`${prefix}/services/plumber/boiler-repair`}
                   className="text-primary underline underline-offset-2 hover:text-primary/80"
                 >
                   boiler repair
                 </a>
                 , or{" "}
                 <a
-                  href={`${prefix}/services/drain-services/blocked-drains`}
+                  href={`${prefix}/services/plumber/blocked-drains`}
                   className="text-primary underline underline-offset-2 hover:text-primary/80"
                 >
                   drain clearing
